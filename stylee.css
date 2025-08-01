@@ -16,6 +16,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Signika', sans-serif;
+    background: #ffffff; /* White background */
 }
 
 .logo {
@@ -111,7 +112,6 @@ body {
     max-width: 640px;
 }
 
-
 .byon-canvas[data-ratio="portrait"] {
     max-width: 447px;
 }
@@ -176,14 +176,13 @@ body {
 .facebook-box,
 .twitter-box,
 .tumblr-box {
-    display:none;
+    display: none;
 }
 
 .social-text {
     width: 100%;
     margin-bottom: 10px;
     padding: 10px;
-
 }
 
 footer {
@@ -295,7 +294,6 @@ footer a:hover {
         padding: 20px;
     }
 
-
     .intro__text {
         font-size: 90%;
     }
@@ -309,7 +307,6 @@ footer a:hover {
         width: 150px;
         height: 135px;
     }
-
 }
 
 @media only screen and (max-width: 800px) {
@@ -353,15 +350,14 @@ footer a:hover {
         margin: 5px;
     }
 
-
     .merch {
         margin-left: 6px;
         margin-right: 6px;
         grid-template-columns: max-content 1fr;
         grid-template-rows: min-content 1fr;
         grid-template-areas:
-    "art title"
-    "buttons buttons";
+            "art title"
+            "buttons buttons";
     }
 
     .merch__header {
@@ -376,9 +372,7 @@ footer a:hover {
     }
 }
 
-
 @media only screen and (max-width: 400px) {
-
     .build-form__item {
         width: 100%;
     }
@@ -386,30 +380,5 @@ footer a:hover {
     .build-form__item:first-of-type {
         margin-right: 0;
     }
-
 }
 
-/* Portrait
-@media only screen
-and (max-device-width: 440px)
-and (orientation: portrait) {
-
-    .moneyplz {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background: #fff;
-        box-shadow: 0 -2px 8px rgba(0,0,0,0.2);
-    }
-
-    .moneyplz__ads {
-        margin: 0 auto;
-    }
-
-    footer {
-        margin-bottom: 110px;
-    }
-
-}
-*/
